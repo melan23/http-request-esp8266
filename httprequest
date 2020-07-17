@@ -24,7 +24,7 @@ void loop() {
 
     HTTPClient http;
 
-    http.begin(""http://192.168.0.117/folder/json.json");
+    http.begin(""http://192.168.0.117/folder/json_file.json");
     int httpCode = http.GET();
 
     if (httpCode > 0) {
